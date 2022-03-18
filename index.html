@@ -120,7 +120,7 @@
                 }
             }, second)
         document.addEventListener("adobe_dc_view_sdk.ready", function () {
-            var adobeDCView = new AdobeDC.PreView({ clientId: "f3e07139c2364d599590f83b41ffd1fa", divId: "adobe-dc-view" });
+            var adobeDCView = new AdobeDC.View({ clientId: "f3e07139c2364d599590f83b41ffd1fa", divId: "adobe-dc-view" });
             adobeDCView.previewFile({
                 content: { location: { url: "./hsk6_source.pdf" } },
                 metaData: { fileName: "hsk6.pdf" }
